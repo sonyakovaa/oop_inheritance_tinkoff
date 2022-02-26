@@ -7,8 +7,6 @@ public class Rabbit extends Animal {
         super(5);
         if (!Objects.equals(name, "") && (name.charAt(0) == 'R' || name.charAt(0) == 'r')) {
             this.setName(name);
-        } else {
-            this.setName("Rabbit without name");
         }
     }
 }

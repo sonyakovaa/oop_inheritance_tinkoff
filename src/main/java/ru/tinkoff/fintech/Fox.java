@@ -7,8 +7,6 @@ public class Fox extends Animal {
         super(21);
         if (!Objects.equals(name, "") && (name.charAt(0) == 'F' || name.charAt(0) == 'f')) {
             this.setName(name);
-        } else {
-            this.setName("Fox without name");
         }
     }
 }

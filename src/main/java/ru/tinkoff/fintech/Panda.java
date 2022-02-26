@@ -7,8 +7,6 @@ public class Panda extends Animal {
         super(200);
         if (!Objects.equals(name, "") && (name.charAt(0) == 'P' || name.charAt(0) == 'p')) {
             this.setName(name);
-        } else {
-            this.setName("Panda without name");
         }
     }
 }
